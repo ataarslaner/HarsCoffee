@@ -1,0 +1,26 @@
+{
+  "redirects": [
+    {
+      "source": "/menu.html",
+      "destination": "/",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/menu.html",
+      "destination": "/"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/menu.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
+  ]
+} 

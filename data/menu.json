@@ -1,0 +1,76 @@
+{
+  "yiyecekler": [
+    { "id": "hindi-fume", "name": "Hindi Füme Sandviç", "price": 215, "image": "/menu_pics/hindi-fume.webp" },
+    { "id": "kasarli-tost", "name": "Kaşarlı Tost", "price": 180 },
+    { "id": "beyaz-peynirli-sandvic", "name": "Beyaz Peynirli Sandviç", "price": 200 }
+  ],
+  "tatlilar": [
+    { "id": "brownie", "name": "Yaban Mersinli Muffin", "price": 140, "image": "/menu_pics/brownie.webp" },
+    { "id": "lime-cheesecake", "name": "Lime Cheesecake", "price": 230 },
+    { "id": "cup", "name": "Cup", "price": 240, "image": "/menu_pics/cup.webp" },
+    { "id": "bodrum-mandarin-cheesecake", "name": "Bodrum Mandarin Cheesecake", "price": 235, "image": "/menu_pics/mandalina-cheesecake.webp" },
+    { "id": "kahveli-karamelli-cheesecake", "name": "Kahveli Karamelli Cheesecake", "price": 220 },
+    { "id": "tiramisu-cheesecake", "name": "Tiramisu Cheesecake", "price": 240 },
+    { "id": "san-sebastian-cheesecake", "name": "San Sebastian Cheesecake", "price": 225 },
+    { "id": "rafaello-cheesecake", "name": "Rafaello Cheesecake", "price": 245, "image": "/menu_pics/rafaello-cheesecake.webp" },
+    { "id": "sufle", "name": "Sufle", "price": 150 }
+  ],
+  "hars-summer-edition": [
+    { "id": "vanilla-biscuit-shake", "name": "Vanilla Biscuit Shake", "price": 185 },
+    { "id": "strawberry-frozen", "name": "Strawberry Frozen", "price": 200 },
+    { "id": "cool-lime", "name": "Cool Lime", "price": 200 },
+    { "id": "mango-frozen", "name": "Mango Frozen", "price": 200 },
+    { "id": "kuzukulagi-kokteyli", "name": "Kuzukulağı Special Kokteyl", "price": 220 },
+    { "id": "blue-strawberry-bubble-tea", "name": "Blue Strawberry Bubble Tea", "price": 220 },
+    { "id": "passion-fruit-bubble-tea", "name": "Passion Fruit Bubble Tea", "price": 220 },
+    { "id": "dragon-fruit-bubble-tea", "name": "Dragon Fruit Bubble Tea", "price": 220 },
+    { "id": "cool-lime-bubble-tea", "name": "Cool Lime Bubble Tea", "price": 220 }
+  ],
+  "soguk-icecekler": [
+    { "id": "iced-tea-hibiscus", "name": "Iced Tea Hibiscus", "price": 210, "image": "/menu_pics/berry-hibiscus.webp" },
+    { "id": "iced-tea-green", "name": "Iced Tea Green", "price": 220, "image": "/menu_pics/ice-tea-green.webp" },
+    { "id": "redbull-classic", "name": "Red Bull Energy Drink", "price": 160, "image": "/menu_pics/red-bull-classic.webp" },
+    { "id": "redbull-sugarfree", "name": "Red Bull Sugarfree", "price": 160, "image": "/menu_pics/red-bull-sugarfree.webp" },
+    { "id": "redbull-white", "name": "Red Bull White Edition", "price": 160, "image": "/menu_pics/red-bull-white.webp" },
+    { "id": "redbull-pink", "name": "Red Bull Pink Edition", "price": 160, "image": "/menu_pics/red-bull-pink.webp" },
+    { "id": "su", "name": "Su", "price": 50, "image": "/menu_pics/su.webp" },
+    { "id": "soda", "name": "Soda (Uludağ 250ml)", "price": 85, "image": "/menu_pics/soda.webp" },
+    { "id": "uludag-premium", "name": "Uludağ Premium Mineralli Su", "price": 135, "image": "/menu_pics/soda-premium.webp" },
+    { "id": "meyveli-soda", "name": "Meyveli Soda", "price": 85 },
+    { "id": "churchill", "name": "Churchill", "price": 140, "image": "/menu_pics/churchill.webp" }
+  ],
+  "soguk-kahveler": [
+    { "id": "coldbrew", "name": "Coldbrew (24h)", "price": 200, "image": "/menu_pics/cold-brew.webp" },
+    { "id": "iced-filtre", "name": "Iced Filtre", "price": 150, "image": "/menu_pics/soguk-filtre.webp" },
+    { "id": "iced-americano", "name": "Iced Americano", "price": 160, "image": "/menu_pics/ice-americano.webp" },
+    { "id": "iced-latte", "name": "Iced Latte", "price": 170, "image": "/menu_pics/ice-latte.webp" },
+    { "id": "iced-caramel-latte", "name": "Iced Caramel Latte", "price": 190, "image": "/menu_pics/ice-latte.webp" },
+    { "id": "iced-vanilla-latte", "name": "Iced Vanilla Latte", "price": 190, "image": "/menu_pics/ice-latte.webp" },
+    { "id": "iced-mocha", "name": "Iced Mocha Black/White", "price": 215 }
+  ],
+  "hars-matcha": [
+    { "id": "iced-matcha-latte", "name": "Iced Matcha Latte", "price": 215 },
+    { "id": "iced-vanilla-matcha", "name": "Iced Vanilla Matcha", "price": 235 },
+    { "id": "iced-coconut-matcha", "name": "Iced Coconut Matcha", "price": 235, "image": "/menu_pics/matcha.webp" }
+  ],
+  "klasik-kahveler": [
+    { "id": "filtre-kahve", "name": "Filtre Kahve", "price": 140, "image": "/menu_pics/filtre-kahve.webp" },
+    { "id": "espresso", "name": "Espresso", "price": 105, "image": "/menu_pics/espresso.webp" },
+    { "id": "cortado", "name": "Cortado", "price": 130, "image": "/menu_pics/cortado.webp" },
+    { "id": "americano", "name": "Americano", "price": 150, "image": "/menu_pics/americano.webp" },
+    { "id": "cappuccino", "name": "Cappuccino", "price": 160 },
+    { "id": "latte", "name": "Latte", "price": 160, "image": "/menu_pics/latte.webp" },
+    { "id": "caramel-latte", "name": "Caramel Latte", "price": 180, "image": "/menu_pics/latte.webp" },
+    { "id": "vanilla-latte", "name": "Vanilla Latte", "price": 180, "image": "/menu_pics/latte.webp" },
+    { "id": "flat-white", "name": "Flat White", "price": 185 },
+    { "id": "mocha", "name": "Mocha Black/White", "price": 205, "image": "/menu_pics/mocha.webp" }
+  ],
+  "cay-ve-turk-kahvesi": [
+    { "id": "cay", "name": "Çay", "price": 60, "image": "/menu_pics/cay.webp" },
+    { "id": "kupa-cay", "name": "Kupa Çay", "price": 90, "image": "/menu_pics/fincan-cay.webp" },
+    { "id": "hibiscus-cayi", "name": "Hibiscus Çayı", "price": 160, "image": "/menu_pics/hibiscus.webp" },
+    { "id": "yesil-cay", "name": "Yeşil Çay", "price": 160, "image": "/menu_pics/yesil-cay.webp" },
+    { "id": "turk-kahvesi", "name": "Türk Kahvesi", "price": 110, "image": "/menu_pics/turk-kahvesi.webp" },
+    { "id": "double-turk-kahvesi", "name": "Double Türk Kahvesi", "price": 150, "image": "/menu_pics/duble-turk-kahvesi.webp" }
+  ]
+} 

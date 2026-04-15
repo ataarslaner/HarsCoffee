@@ -1,76 +1,77 @@
 {
   "yiyecekler": [
-    { "id": "hindi-fume", "name": "Hindi Füme Sandviç", "price": 215, "image": "/menu_pics/hindi-fume.webp" },
-    { "id": "kasarli-tost", "name": "Kaşarlı Tost", "price": 180 },
-    { "id": "beyaz-peynirli-sandvic", "name": "Beyaz Peynirli Sandviç", "price": 200 }
+    { "id": "uc-peynirli-sandvic", "name": "Üç Peynirli Sandviç", "price": 180, "size": "Normal", "description": "Kaşar, beyaz peynir, çedar. Gluten, süt ürünü içerir." },
+    { "id": "hindi-fume-sandvic", "name": "Hindi Füme Sandviç", "price": 180, "size": "Normal", "description": "Füme hindi, taze yeşillik. Gluten, süt ürünü içerir." },
+    { "id": "vegan-tortilla-sandvic", "name": "Vegan Tortilla Sandviç", "price": 200, "description": "Sebze dolgulu tortilla. Gluten içerir. Vegan." },
+    { "id": "uc-peynirli-sandvic-buyuk", "name": "Üç Peynirli Sandviç", "price": 300, "size": "Büyük Boy", "description": "Kaşar, beyaz peynir, çedar. Gluten, süt ürünü içerir." },
+    { "id": "hindi-fume-sandvic-buyuk", "name": "Hindi Füme Sandviç", "price": 300, "size": "Büyük Boy", "description": "Füme hindi, taze yeşillik. Gluten, süt ürünü içerir." },
+    { "id": "margherita-pizza", "name": "Margherita Pizza", "price": 320, "description": "Domates sos, mozzarella, fesleğen. Gluten, süt ürünü içerir." },
+    { "id": "mixed-pizza", "name": "Mixed Pizza", "price": 350, "description": "Karışık malzemeli pizza. Gluten, süt ürünü içerir." }
   ],
   "tatlilar": [
-    { "id": "brownie", "name": "Yaban Mersinli Muffin", "price": 140, "image": "/menu_pics/brownie.webp" },
-    { "id": "lime-cheesecake", "name": "Lime Cheesecake", "price": 230 },
-    { "id": "cup", "name": "Cup", "price": 240, "image": "/menu_pics/cup.webp" },
-    { "id": "bodrum-mandarin-cheesecake", "name": "Bodrum Mandarin Cheesecake", "price": 235, "image": "/menu_pics/mandalina-cheesecake.webp" },
-    { "id": "kahveli-karamelli-cheesecake", "name": "Kahveli Karamelli Cheesecake", "price": 220 },
-    { "id": "tiramisu-cheesecake", "name": "Tiramisu Cheesecake", "price": 240 },
-    { "id": "san-sebastian-cheesecake", "name": "San Sebastian Cheesecake", "price": 225 },
-    { "id": "rafaello-cheesecake", "name": "Rafaello Cheesecake", "price": 245, "image": "/menu_pics/rafaello-cheesecake.webp" },
-    { "id": "sufle", "name": "Sufle", "price": 150 }
-  ],
-  "hars-summer-edition": [
-    { "id": "vanilla-biscuit-shake", "name": "Vanilla Biscuit Shake", "price": 185 },
-    { "id": "strawberry-frozen", "name": "Strawberry Frozen", "price": 200 },
-    { "id": "cool-lime", "name": "Cool Lime", "price": 200 },
-    { "id": "mango-frozen", "name": "Mango Frozen", "price": 200 },
-    { "id": "kuzukulagi-kokteyli", "name": "Kuzukulağı Special Kokteyl", "price": 220 },
-    { "id": "blue-strawberry-bubble-tea", "name": "Blue Strawberry Bubble Tea", "price": 220 },
-    { "id": "passion-fruit-bubble-tea", "name": "Passion Fruit Bubble Tea", "price": 220 },
-    { "id": "dragon-fruit-bubble-tea", "name": "Dragon Fruit Bubble Tea", "price": 220 },
-    { "id": "cool-lime-bubble-tea", "name": "Cool Lime Bubble Tea", "price": 220 }
-  ],
-  "soguk-icecekler": [
-    { "id": "iced-tea-hibiscus", "name": "Iced Tea Hibiscus", "price": 210, "image": "/menu_pics/berry-hibiscus.webp" },
-    { "id": "iced-tea-green", "name": "Iced Tea Green", "price": 220, "image": "/menu_pics/ice-tea-green.webp" },
-    { "id": "redbull-classic", "name": "Red Bull Energy Drink", "price": 160, "image": "/menu_pics/red-bull-classic.webp" },
-    { "id": "redbull-sugarfree", "name": "Red Bull Sugarfree", "price": 160, "image": "/menu_pics/red-bull-sugarfree.webp" },
-    { "id": "redbull-white", "name": "Red Bull White Edition", "price": 160, "image": "/menu_pics/red-bull-white.webp" },
-    { "id": "redbull-pink", "name": "Red Bull Pink Edition", "price": 160, "image": "/menu_pics/red-bull-pink.webp" },
-    { "id": "su", "name": "Su", "price": 50, "image": "/menu_pics/su.webp" },
-    { "id": "soda", "name": "Soda (Uludağ 250ml)", "price": 85, "image": "/menu_pics/soda.webp" },
-    { "id": "uludag-premium", "name": "Uludağ Premium Mineralli Su", "price": 135, "image": "/menu_pics/soda-premium.webp" },
-    { "id": "meyveli-soda", "name": "Meyveli Soda", "price": 85 },
-    { "id": "churchill", "name": "Churchill", "price": 140, "image": "/menu_pics/churchill.webp" }
-  ],
-  "soguk-kahveler": [
-    { "id": "coldbrew", "name": "Coldbrew (24h)", "price": 200, "image": "/menu_pics/cold-brew.webp" },
-    { "id": "iced-filtre", "name": "Iced Filtre", "price": 150, "image": "/menu_pics/soguk-filtre.webp" },
-    { "id": "iced-americano", "name": "Iced Americano", "price": 160, "image": "/menu_pics/ice-americano.webp" },
-    { "id": "iced-latte", "name": "Iced Latte", "price": 170, "image": "/menu_pics/ice-latte.webp" },
-    { "id": "iced-caramel-latte", "name": "Iced Caramel Latte", "price": 190, "image": "/menu_pics/ice-latte.webp" },
-    { "id": "iced-vanilla-latte", "name": "Iced Vanilla Latte", "price": 190, "image": "/menu_pics/ice-latte.webp" },
-    { "id": "iced-mocha", "name": "Iced Mocha Black/White", "price": 215 }
-  ],
-  "hars-matcha": [
-    { "id": "iced-matcha-latte", "name": "Iced Matcha Latte", "price": 215 },
-    { "id": "iced-vanilla-matcha", "name": "Iced Vanilla Matcha", "price": 235 },
-    { "id": "iced-coconut-matcha", "name": "Iced Coconut Matcha", "price": 235, "image": "/menu_pics/matcha.webp" }
+    { "id": "hars-cake", "name": "Hars Cake", "price": 160, "description": "Özel tarif kek. Gluten, yumurta, süt ürünü içerir." },
+    { "id": "havuclu-kremali-cake", "name": "Havuçlu Kremalı Cake", "price": 220, "description": "Havuç, tarçın, krem peynir. Gluten, yumurta, süt ürünü, kabuklu yemiş içerebilir." },
+    { "id": "elmali-pie-cake", "name": "Elmalı Pie Cake", "price": 220, "description": "Taze elma, tarçın. Gluten, yumurta, süt ürünü içerir." },
+    { "id": "bodrum-mandalina-cheesecake", "name": "Bodrum Mandalina Cheesecake", "price": 250, "description": "Mandalina aromalı cheesecake. Gluten, yumurta, süt ürünü içerir." },
+    { "id": "profiterollu-cikolatali-mono-pasta", "name": "Profiterollü Çikolatalı Mono Pasta", "price": 280, "description": "Profiterol, bitter çikolata. Gluten, yumurta, süt ürünü içerir." },
+    { "id": "cafe-latte-mono-pasta", "name": "Cafe Latte Mono Pasta", "price": 280, "description": "Kahve kremalı pasta. Gluten, yumurta, süt ürünü içerir. Kafein içerir." },
+    { "id": "italian-tiramisu-cake", "name": "Italian Tiramisu Cake", "price": 280, "description": "Mascarpone, espresso, kakao. Gluten, yumurta, süt ürünü içerir. Kafein içerir." },
+    { "id": "antep-fistikli-kremali-pasta", "name": "Antep Fıstıklı Kremalı Pasta", "price": 320, "description": "Antep fıstığı, krema. Gluten, yumurta, süt ürünü, kabuklu yemiş içerir." }
   ],
   "klasik-kahveler": [
-    { "id": "filtre-kahve", "name": "Filtre Kahve", "price": 140, "image": "/menu_pics/filtre-kahve.webp" },
-    { "id": "espresso", "name": "Espresso", "price": 105, "image": "/menu_pics/espresso.webp" },
-    { "id": "cortado", "name": "Cortado", "price": 130, "image": "/menu_pics/cortado.webp" },
-    { "id": "americano", "name": "Americano", "price": 150, "image": "/menu_pics/americano.webp" },
-    { "id": "cappuccino", "name": "Cappuccino", "price": 160 },
-    { "id": "latte", "name": "Latte", "price": 160, "image": "/menu_pics/latte.webp" },
-    { "id": "caramel-latte", "name": "Caramel Latte", "price": 180, "image": "/menu_pics/latte.webp" },
-    { "id": "vanilla-latte", "name": "Vanilla Latte", "price": 180, "image": "/menu_pics/latte.webp" },
-    { "id": "flat-white", "name": "Flat White", "price": 185 },
-    { "id": "mocha", "name": "Mocha Black/White", "price": 205, "image": "/menu_pics/mocha.webp" }
+    { "id": "filtre-kahve", "name": "Filtre Kahve", "price": 170, "description": "Öğütülmüş filtre kahve. Kafein içerir." },
+    { "id": "espresso", "name": "Espresso", "price": 170, "description": "Tek shot espresso. Kafein içerir." },
+    { "id": "macchiato", "name": "Macchiato", "price": 190, "description": "Espresso üzerine süt köpüğü. Süt ürünü, kafein içerir." },
+    { "id": "americano", "name": "Americano", "price": 190, "description": "Espresso ve sıcak su. Kafein içerir." },
+    { "id": "cortado", "name": "Cortado", "price": 210, "description": "Espresso ve az miktarda sıcak süt. Süt ürünü, kafein içerir." },
+    { "id": "cappuccino", "name": "Cappuccino", "price": 220, "description": "Espresso, buharlanmış süt, köpük. Süt ürünü, kafein içerir." },
+    { "id": "latte", "name": "Latte", "price": 220, "description": "Espresso ve bol süt. Süt ürünü, kafein içerir." },
+    { "id": "flat-white", "name": "Flat White", "price": 220, "description": "Çift shot espresso, kadifemsi süt. Süt ürünü, kafein içerir." },
+    { "id": "mocha-white", "name": "Mocha White", "price": 240, "description": "Espresso, beyaz çikolata, süt. Süt ürünü, kafein içerir." },
+    { "id": "mocha-black", "name": "Mocha Black", "price": 240, "description": "Espresso, bitter çikolata, süt. Süt ürünü, kafein içerir." }
   ],
-  "cay-ve-turk-kahvesi": [
-    { "id": "cay", "name": "Çay", "price": 60, "image": "/menu_pics/cay.webp" },
-    { "id": "kupa-cay", "name": "Kupa Çay", "price": 90, "image": "/menu_pics/fincan-cay.webp" },
-    { "id": "hibiscus-cayi", "name": "Hibiscus Çayı", "price": 160, "image": "/menu_pics/hibiscus.webp" },
-    { "id": "yesil-cay", "name": "Yeşil Çay", "price": 160, "image": "/menu_pics/yesil-cay.webp" },
-    { "id": "turk-kahvesi", "name": "Türk Kahvesi", "price": 110, "image": "/menu_pics/turk-kahvesi.webp" },
-    { "id": "double-turk-kahvesi", "name": "Double Türk Kahvesi", "price": 150, "image": "/menu_pics/duble-turk-kahvesi.webp" }
+  "soguk-kahveler": [
+    { "id": "iced-filtre", "name": "Iced Filtre Kahve", "price": 170, "description": "Soğuk filtre kahve, buz. Kafein içerir." },
+    { "id": "iced-espresso", "name": "Iced Espresso", "price": 170, "description": "Buzlu espresso. Kafein içerir." },
+    { "id": "iced-macchiato", "name": "Iced Macchiato", "price": 190, "description": "Buzlu espresso, süt köpüğü. Süt ürünü, kafein içerir." },
+    { "id": "iced-americano", "name": "Iced Americano", "price": 190, "description": "Buzlu espresso ve su. Kafein içerir." },
+    { "id": "iced-cortado", "name": "Iced Cortado", "price": 210, "description": "Buzlu espresso, az süt. Süt ürünü, kafein içerir." },
+    { "id": "iced-latte", "name": "Iced Latte", "price": 220, "description": "Buzlu espresso ve soğuk süt. Süt ürünü, kafein içerir." },
+    { "id": "iced-mocha-white", "name": "Iced Mocha White", "price": 240, "description": "Buzlu espresso, beyaz çikolata, süt. Süt ürünü, kafein içerir." },
+    { "id": "iced-mocha-black", "name": "Iced Mocha Black", "price": 240, "description": "Buzlu espresso, bitter çikolata, süt. Süt ürünü, kafein içerir." }
+  ],
+  "hars-matcha": [
+    { "id": "matcha-latte", "name": "Matcha Latte", "price": 305, "description": "Japon matcha tozu, süt. Süt ürünü, kafein içerir." },
+    { "id": "ice-matcha-latte", "name": "Ice Matcha Latte", "price": 305, "description": "Buzlu matcha, soğuk süt. Süt ürünü, kafein içerir." }
+  ],
+  "cay-ve-sicak-icecekler": [
+    { "id": "cay", "name": "Çay", "price": 80, "description": "Demlik siyah çay. Kafein içerir." },
+    { "id": "kupa-cay", "name": "Kupa Çay", "price": 130, "description": "Büyük boy demlik çay. Kafein içerir." },
+    { "id": "turk-kahvesi", "name": "Türk Kahvesi", "price": 150, "description": "Geleneksel Türk kahvesi. Kafein içerir." },
+    { "id": "double-turk-kahvesi", "name": "Double Türk Kahvesi", "price": 200, "description": "Çift porsiyon Türk kahvesi. Kafein içerir." },
+    { "id": "yesil-cay", "name": "Yeşil Çay", "price": 210, "description": "Doğal yeşil çay. Kafein içerir." },
+    { "id": "sicak-cikolata", "name": "Sıcak Çikolata", "price": 215, "description": "Sıcak süt, çikolata. Süt ürünü içerir." },
+    { "id": "kis-cayi", "name": "Kış Çayı", "price": 220, "description": "Tarçın, karanfil, zencefil karışımı bitki çayı." },
+    { "id": "elma-tarcin", "name": "Elma Tarçın", "price": 220, "description": "Elma ve tarçın aromalı sıcak içecek." },
+    { "id": "salep", "name": "Salep", "price": 230, "description": "Sıcak süt, salep tozu, tarçın. Süt ürünü içerir." }
+  ],
+  "soguk-icecekler": [
+    { "id": "su", "name": "Su (400ml)", "price": 60, "description": "Doğal kaynak suyu." },
+    { "id": "soda", "name": "Soda (250ml)", "price": 110, "description": "Uludağ soda." },
+    { "id": "coca-cola", "name": "Coca Cola (250ml)", "price": 120, "description": "Kafein içerir." },
+    { "id": "uludag-premium", "name": "Uludağ Premium (250ml)", "price": 155, "description": "Mineralli doğal kaynak suyu." },
+    { "id": "churchill", "name": "Churchill", "price": 195, "description": "Zencefilli gazlı içecek." },
+    { "id": "limonata", "name": "Limonata", "price": 200, "description": "Taze sıkılmış limon, şeker." },
+    { "id": "red-bull", "name": "Red Bull (250ml)", "price": 230, "description": "Enerji içeceği. Kafein, taurin içerir." }
+  ],
+  "ekstralar": [
+    { "id": "caramel-syrup", "name": "Karamel Şurup", "price": 45, "description": "İçeceğe ek karamel aroması." },
+    { "id": "coconut-syrup", "name": "Hindistan Cevizi Şurup", "price": 45, "description": "İçeceğe ek hindistan cevizi aroması." },
+    { "id": "vanilla-syrup", "name": "Vanilya Şurup", "price": 45, "description": "İçeceğe ek vanilya aroması." },
+    { "id": "hazelnut-syrup", "name": "Fındık Şurup", "price": 45, "description": "İçeceğe ek fındık aroması. Kabuklu yemiş içerir." },
+    { "id": "espresso-shot", "name": "Espresso Shot", "price": 60, "description": "Ekstra tek shot espresso. Kafein içerir." }
+  ],
+  "kampanya": [
+    { "id": "cheesecake-kahve", "name": "Cheesecake + Kahve", "price": 350, "description": "Bir dilim cheesecake ve filtre kahve. Gluten, yumurta, süt ürünü, kafein içerir." }
   ]
-} 
+}

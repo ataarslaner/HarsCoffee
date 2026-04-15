@@ -8,8 +8,42 @@ import { Footer } from '@/components/Footer';
 import { categories, CategoryId, MenuSchema } from '@/lib/types';
 import menuData from '@/data/menu.json';
 
+// Paired categories that make sense together for the customer
+const layout: (CategoryId | [CategoryId, CategoryId])[] = [
+  'kampanya',
+  ['yiyecekler', 'tatlilar'],
+  ['klasik-kahveler', 'soguk-kahveler'],
+  ['hars-matcha', 'cay-ve-sicak-icecekler'],
+  ['soguk-icecekler', 'ekstralar'],
+];
+
+function CategorySection({ categoryId, menu, sectionRef }: {
+  categoryId: CategoryId;
+  menu: Record<string, { id: string; name: string; price: number; description?: string; size?: string }[]>;
+  sectionRef?: (el: HTMLDivElement | null) => void;
+}) {
+  const category = categories.find(c => c.id === categoryId);
+  const items = menu[categoryId] || [];
+  if (!category) return null;
+
+  return (
+    <div ref={sectionRef}>
+      <div className="border-b-2 border-stone-900 pb-1 mb-2">
+        <h2 className="text-lg font-black text-stone-900 uppercase tracking-wider font-[family-name:var(--font-playfair)]">
+          {category.label}
+        </h2>
+      </div>
+      <div className="divide-y divide-stone-100">
+        {items.map((item) => (
+          <MenuItemCard key={item.id} item={item} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function HomePage() {
-  const [currentCategory, setCurrentCategory] = useState<CategoryId>('yiyecekler');
+  const [currentCategory, setCurrentCategory] = useState<CategoryId>('kampanya');
   const [menu] = useState(() => MenuSchema.parse(menuData));
   const categoryRefs = useRef<Record<string, HTMLDivElement | null>>({});
   const [isScrolling, setIsScrolling] = useState(false);
@@ -17,100 +51,54 @@ export default function HomePage() {
   useEffect(() => {
     const handleScroll = () => {
       if (isScrolling) return;
-
-      const scrollPosition = window.scrollY + 200; // Header offset
+      const scrollPosition = window.scrollY + 200;
       let newCategory = currentCategory;
-
-      // Her kategoriyi kontrol et - en yakın olanı bul
       for (let i = categories.length - 1; i >= 0; i--) {
-        const category = categories[i];
-        const element = categoryRefs.current[category.id];
-        if (element) {
-          const elementTop = element.offsetTop;
-          
-          if (scrollPosition >= elementTop) {
-            newCategory = category.id;
-            break;
-          }
-        }
+        const cat = categories[i];
+        const el = categoryRefs.current[cat.id];
+        if (el && scrollPosition >= el.offsetTop) { newCategory = cat.id; break; }
       }
-
-      if (newCategory !== currentCategory) {
-        setCurrentCategory(newCategory);
-      }
+      if (newCategory !== currentCategory) setCurrentCategory(newCategory);
     };
-
-    const throttledScroll = () => {
-      if (!isScrolling) {
-        requestAnimationFrame(handleScroll);
-      }
-    };
-
-    window.addEventListener('scroll', throttledScroll);
-    return () => window.removeEventListener('scroll', throttledScroll);
+    const throttled = () => { if (!isScrolling) requestAnimationFrame(handleScroll); };
+    window.addEventListener('scroll', throttled);
+    return () => window.removeEventListener('scroll', throttled);
   }, [currentCategory, isScrolling]);
 
   const handleCategoryChange = (categoryId: CategoryId) => {
     setCurrentCategory(categoryId);
-    setIsScrolling(true); // Scroll sırasında otomatik değişimi engelle
-    
-    const element = categoryRefs.current[categoryId];
-    if (element) {
-      // Header yüksekliğini hesapla (logo + tabbar + motto)
-      const headerHeight = 210; // LogoHeader + TabBar + Motto + extra padding
-      
-      const elementTop = element.offsetTop - headerHeight;
-      
-      window.scrollTo({
-        top: elementTop,
-        behavior: 'smooth'
-      });
-      
-      // Scroll tamamlandıktan sonra otomatik değişimi tekrar aktif et
-      setTimeout(() => {
-        setIsScrolling(false);
-      }, 1500); // Biraz daha uzun süre bekle
-    } else {
-      setIsScrolling(false);
-    }
+    setIsScrolling(true);
+    const el = categoryRefs.current[categoryId];
+    if (el) {
+      window.scrollTo({ top: el.offsetTop - 180, behavior: 'smooth' });
+      setTimeout(() => setIsScrolling(false), 1500);
+    } else setIsScrolling(false);
+  };
+
+  const setRef = (id: string) => (el: HTMLDivElement | null) => {
+    categoryRefs.current[id] = el;
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <LogoHeader 
-        currentCategory={currentCategory}
-        onCategoryChange={handleCategoryChange}
-      />
-      
-      <main className="container mx-auto px-4 py-6 pb-32">
-        {categories.map((category) => {
-          const items = menu[category.id] || [];
-          
+    <div className="min-h-screen bg-white">
+      <LogoHeader currentCategory={currentCategory} onCategoryChange={handleCategoryChange} />
+
+      <main className="max-w-3xl mx-auto px-4 pt-4 pb-24 space-y-8">
+        {layout.map((row, i) => {
+          if (Array.isArray(row)) {
+            return (
+              <div key={i} className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8">
+                <CategorySection categoryId={row[0]} menu={menu} sectionRef={setRef(row[0])} />
+                <CategorySection categoryId={row[1]} menu={menu} sectionRef={setRef(row[1])} />
+              </div>
+            );
+          }
           return (
-            <section
-              key={category.id}
-              ref={(el) => categoryRefs.current[category.id] = el as HTMLDivElement | null}
-              className="mb-12 last:mb-0"
-            >
-              <div className="mb-6">
-                <h1 className="text-2xl font-bold text-gray-900 mb-2">
-                  {category.label}
-                </h1>
-                <p className="text-gray-600">
-                  {items.length} ürün
-                </p>
-              </div>
-              
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {items.map((item) => (
-                  <MenuItemCard key={item.id} item={item} />
-                ))}
-              </div>
-            </section>
+            <CategorySection key={row} categoryId={row} menu={menu} sectionRef={setRef(row)} />
           );
         })}
       </main>
-      
+
       <Footer />
       <ScrollToTop />
     </div>

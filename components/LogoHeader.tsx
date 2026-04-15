@@ -1,10 +1,8 @@
 'use client';
 
-import Image from 'next/image';
-import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 import { TabBar } from './TabBar';
-import { categories, CategoryId } from '@/lib/types';
+import { CategoryId } from '@/lib/types';
 
 interface LogoHeaderProps {
   currentCategory?: CategoryId;
@@ -12,47 +10,18 @@ interface LogoHeaderProps {
 }
 
 export function LogoHeader({ currentCategory, onCategoryChange }: LogoHeaderProps) {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   return (
-    <header className={cn(
-      'sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 transition-all duration-200',
-      isScrolled ? 'py-2' : 'py-4'
-    )}>
-      <div className="container mx-auto px-4 flex flex-col items-center">
-        <div className={cn(
-          'transition-all duration-200',
-          isScrolled ? 'scale-75' : 'scale-100'
-        )}>
-          <Image
-            src="/logo.jpg"
-            alt="Hars Coffee"
-            width={isScrolled ? 120 : 160}
-            height={isScrolled ? 40 : 53}
-            className="h-auto object-contain"
-            priority
-          />
-        </div>
-        <p className={cn(
-          'text-yellow-600 font-medium transition-all duration-200 mt-1',
-          isScrolled ? 'text-xs opacity-75' : 'text-sm'
-        )}>
-          FOR YOUR SOUL & STOMACH
+    <>
+      <div className="bg-white pt-8 pb-4 flex flex-col items-center">
+        <span className="text-5xl font-black text-stone-900 font-[family-name:var(--font-playfair)] tracking-tight">
+          hars.
+        </span>
+        <p className="text-stone-400 font-medium tracking-[0.3em] uppercase text-[10px] mt-2">
+          Grınd Culture
         </p>
       </div>
-      <TabBar 
-        currentCategory={currentCategory}
-        onCategoryChange={onCategoryChange}
-      />
-    </header>
+      <div className={cn('sticky top-0 z-50 bg-white border-b border-stone-900')}>
+      </div>
+    </>
   );
-} 
+}

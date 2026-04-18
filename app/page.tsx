@@ -8,12 +8,36 @@ import { Footer } from '@/components/Footer';
 import { categories, CategoryId, MenuSchema } from '@/lib/types';
 import menuData from '@/data/menu.json';
 
-// Paired categories that make sense together for the customer
-const layout: (CategoryId | [CategoryId, CategoryId])[] = [
+type LayoutRow = CategoryId | [CategoryId, CategoryId] | [CategoryId, '_logo'];
+type LayoutSection = { title: string; rows: LayoutRow[] };
+type LayoutEntry = LayoutRow | LayoutSection;
+
+const layout: LayoutEntry[] = [
   'kampanya',
-  ['yiyecekler', 'tatlilar'],
-  ['klasik-kahveler', 'soguk-kahveler'],
-  ['hars-matcha', 'cay-ve-sicak-icecekler'],
+  {
+    title: 'Sıcak',
+    rows: [
+      ['brew-bar', 'sicak-espresso'],
+      ['sicak-matcha', 'caylar'],
+      'sicak-farkli',
+    ],
+  },
+  {
+    title: 'Soğuk',
+    rows: [
+      ['soguk-kahve', 'soguk-matcha'],
+      ['limonata', 'soguk-cay'],
+      ['soguk-farkli', 'smoothie'],
+    ],
+  },
+  {
+    title: 'Yiyecekler',
+    rows: [
+      ['sandvic', 'pizza'],
+      ['firin', 'bowl'],
+      ['tatlilar', '_logo'],
+    ],
+  },
   ['soguk-icecekler', 'ekstralar'],
 ];
 
@@ -83,19 +107,53 @@ export default function HomePage() {
     <div className="min-h-screen bg-white">
       <LogoHeader currentCategory={currentCategory} onCategoryChange={handleCategoryChange} />
 
-      <main className="max-w-3xl mx-auto px-4 pt-4 pb-24 space-y-8">
-        {layout.map((row, i) => {
-          if (Array.isArray(row)) {
+      <main className="max-w-5xl mx-auto px-4 pt-4 pb-24 space-y-8">
+        {layout.map((entry, i) => {
+          // Section with title
+          if (typeof entry === 'object' && !Array.isArray(entry) && 'title' in entry) {
             return (
-              <div key={i} className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8">
-                <CategorySection categoryId={row[0]} menu={menu} sectionRef={setRef(row[0])} />
-                <CategorySection categoryId={row[1]} menu={menu} sectionRef={setRef(row[1])} />
+              <div key={i} className="space-y-6">
+                <div className="pt-4">
+                  <h2 className="text-2xl font-black text-stone-900 uppercase tracking-[0.25em] font-[family-name:var(--font-playfair)]">
+                    {entry.title}
+                  </h2>
+                  <div className="mt-1 w-12 border-b-2 border-stone-900" />
+                </div>
+                {entry.rows.map((row, j) => {
+                  if (Array.isArray(row)) {
+                    return (
+                      <div key={j} className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8">
+                        <CategorySection categoryId={row[0]} menu={menu} sectionRef={setRef(row[0])} />
+                        {row[1] === '_logo' ? (
+                          <div className="hidden sm:flex items-center justify-center">
+                            {/* Logo placeholder — add your image here */}
+                          </div>
+                        ) : (
+                          <CategorySection categoryId={row[1]} menu={menu} sectionRef={setRef(row[1])} />
+                        )}
+                      </div>
+                    );
+                  }
+                  return <CategorySection key={row} categoryId={row} menu={menu} sectionRef={setRef(row)} />;
+                })}
               </div>
             );
           }
-          return (
-            <CategorySection key={row} categoryId={row} menu={menu} sectionRef={setRef(row)} />
-          );
+          // Paired row
+          if (Array.isArray(entry)) {
+            return (
+              <div key={i} className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8">
+                <CategorySection categoryId={entry[0]} menu={menu} sectionRef={setRef(entry[0])} />
+                {entry[1] === '_logo' ? (
+                  <div className="hidden sm:flex items-center justify-center" />
+                ) : (
+                  <CategorySection categoryId={entry[1]} menu={menu} sectionRef={setRef(entry[1])} />
+                )}
+              </div>
+            );
+          }
+          // Single row
+          return <CategorySection key={entry} categoryId={entry} menu={menu} sectionRef={setRef(entry)} />;
         })}
       </main>
 

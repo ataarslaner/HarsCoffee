@@ -18,12 +18,22 @@ export type Menu = z.infer<typeof MenuSchema>;
 
 export const categories = [
   { id: 'kampanya', label: 'Kampanya' },
-  { id: 'yiyecekler', label: 'Yiyecekler' },
+  { id: 'sandvic', label: 'Sandviç' },
+  { id: 'pizza', label: 'Pizza' },
+  { id: 'firin', label: 'Fırın' },
+  { id: 'bowl', label: 'Bowl' },
   { id: 'tatlilar', label: 'Tatlılar' },
-  { id: 'klasik-kahveler', label: 'Kahveler' },
-  { id: 'soguk-kahveler', label: 'Soğuk Kahveler' },
-  { id: 'hars-matcha', label: 'Matcha' },
-  { id: 'cay-ve-sicak-icecekler', label: 'Çay & Sıcak İçecekler' },
+  { id: 'sicak-espresso', label: 'Espresso' },
+  { id: 'brew-bar', label: 'Brew Bar' },
+  { id: 'sicak-matcha', label: 'Matcha' },
+  { id: 'sicak-farkli', label: 'Farklı' },
+  { id: 'caylar', label: 'Çaylar' },
+  { id: 'soguk-kahve', label: 'Soğuk Kahve' },
+  { id: 'limonata', label: 'Limonata' },
+  { id: 'soguk-cay', label: 'Soğuk Çay' },
+  { id: 'soguk-matcha', label: 'Matcha' },
+  { id: 'soguk-farkli', label: 'Farklı' },
+  { id: 'smoothie', label: 'Smoothie' },
   { id: 'soguk-icecekler', label: 'Soğuk İçecekler' },
   { id: 'ekstralar', label: 'Ekstralar' }
 ] as const;

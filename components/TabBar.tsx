@@ -11,7 +11,7 @@ interface TabBarProps {
 }
 
 export function TabBar({ className, currentCategory, onCategoryChange }: TabBarProps) {
-  const activeCategory = currentCategory || 'yiyecekler';
+  const activeCategory = currentCategory || 'sandvic';
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const activeButtonRef = useRef<HTMLButtonElement>(null);
 

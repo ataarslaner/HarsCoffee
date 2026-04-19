@@ -32,16 +32,16 @@ const layout: LayoutEntry[] = [
   {
     title: 'Yiyecekler',
     rows: [
-      ['pizza', 'tatlilar'],
+      ['sandvic', 'pizza'],
+      'tatlilar',
     ],
   },
   ['soguk-icecekler', 'ekstralar'],
   {
     title: 'Yakında',
     rows: [
-      ['sandvic', 'firin'],
-      ['bowl', 'soguk-farkli'],
-      'smoothie',
+      ['firin', 'bowl'],
+      ['soguk-farkli', 'smoothie'],
     ],
   },
 ];
@@ -57,6 +57,13 @@ function CategorySection({ categoryId, menu, sectionRef }: {
 
   return (
     <div ref={sectionRef}>
+      {categoryId === 'kampanya' && (
+        <div className="mb-2">
+          <p className="text-[10px] text-stone-400 leading-tight font-medium">Sabah saat 10 ile öğlen 2 arası</p>
+          <p className="text-[10px] text-stone-400 leading-tight">(filtre kahve ve americano %20 indirimlidir)</p>
+          <p className="text-[10px] text-stone-400 leading-tight">(tüm yiyecekler %20 indirimlidir)</p>
+        </div>
+      )}
       <div className="border-b-2 border-stone-900 pb-1 mb-2">
         <h2 className="text-lg font-black text-stone-900 uppercase tracking-wider font-[family-name:var(--font-playfair)]">
           {category.label}

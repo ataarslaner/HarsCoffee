@@ -9,8 +9,8 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
     <div className="flex items-baseline justify-between py-1.5">
       <div className="flex-1 pr-3 min-w-0">
         <div className="flex items-baseline gap-1.5 flex-wrap">
-          <span className="text-[13px] font-semibold text-stone-900 uppercase tracking-wide leading-tight">
-            {item.name}
+          <span className="text-[13px] font-semibold text-stone-900 tracking-wide leading-tight">
+            {item.name.toUpperCase()}
           </span>
           {item.size && (
             <span className="text-[9px] font-medium text-stone-400 border border-stone-300 rounded px-1 py-px uppercase tracking-wider">

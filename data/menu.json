@@ -1,5 +1,7 @@
 {
   "sandvic": [
+    { "id": "uc-peynirli-sandvic", "name": "Üç Peynirli Sandviç", "price": 180, "description": "Kaşar, beyaz peynir, çedar. Gluten, süt ürünü içerir." },
+    { "id": "hindi-fume-sandvic", "name": "Hindi Füme Sandviç", "price": 180, "description": "Füme hindi, taze yeşillik. Gluten, süt ürünü içerir." },
     { "id": "hars-italyan-sandvic", "name": "Hars İtalyan Sandviç", "price": 0, "priceLabel": "Yakında", "size": "Mini / Regular", "description": "Ekşi maya tam buğday ekmek, taze mozzarella, pesto, roka, kaju & Antep fıstığı, közde domates, zeytinyağı. Gluten, süt ürünü, kabuklu yemiş içerir." },
     { "id": "hars-melt", "name": "Hars Melt", "price": 0, "priceLabel": "Yakında", "size": "Mini / Regular", "description": "Arıstan ekmek, hindi füme (60gr), kaşar & cheddar (70gr), turşu (30gr), özel sos (mayo+hardal, 20gr). Gluten, süt ürünü içerir." },
     { "id": "hars-falafel-wrap", "name": "Hars Falafel Wrap", "price": 0, "priceLabel": "Yakında", "description": "İnce lavaş, falafel (140gr), marul (20gr), turşu (30gr), domates (40gr), yoğurtlu sos (sarımsak+limon, 15gr), acı sos (15gr). Gluten, süt ürünü içerir." }
@@ -29,30 +31,30 @@
   ],
   "sicak-espresso": [
     { "id": "espresso", "name": "Espresso", "price": 170, "size": "45ml", "description": "Tek shot espresso. Kafein içerir." },
-    { "id": "americano", "name": "Americano", "price": 200, "size": "240ml / 355ml", "description": "Espresso ve sıcak su. 240ml 200₺ / 355ml 220₺. Kafein içerir." },
+    { "id": "americano", "name": "Americano", "price": 0, "priceLabel": "200 / 220₺", "size": "240ml / 355ml", "description": "Espresso ve sıcak su. Kafein içerir." },
     { "id": "cortado", "name": "Cortado", "price": 195, "size": "120ml", "description": "Espresso ve az miktarda sıcak süt. Süt ürünü, kafein içerir." },
     { "id": "spanish-cortado", "name": "Spanish Cortado", "price": 210, "size": "120ml", "description": "Espresso, yoğunlaştırılmış süt. Süt ürünü, kafein içerir." },
     { "id": "cappuccino", "name": "Cappuccino", "price": 220, "size": "240ml", "description": "Espresso, buharlanmış süt, köpük. Süt ürünü, kafein içerir." },
     { "id": "latte", "name": "Latte", "price": 220, "size": "240ml", "description": "Espresso ve bol süt. Süt ürünü, kafein içerir." },
-    { "id": "madagascar-vanilla-latte", "name": "Madagascar Vanilla Latte", "price": 250, "size": "270ml / 355ml", "description": "Espresso, Madagaskar vanilya, süt. 270ml 250₺ / 355ml 290₺. Süt ürünü, kafein içerir." },
-    { "id": "sugarfree-vanilla-latte", "name": "Sugarfree Vanilla Latte", "price": 270, "size": "270ml / 355ml", "description": "Espresso, şekersiz vanilya, süt. 270ml 270₺ / 355ml 300₺. Süt ürünü, kafein içerir." },
-    { "id": "caramel-latte", "name": "Caramel Latte", "price": 250, "size": "270ml / 355ml", "description": "Espresso, karamel, süt. 270ml 250₺ / 355ml 290₺. Süt ürünü, kafein içerir." },
-    { "id": "sugarfree-caramel-latte", "name": "Sugarfree Caramel Latte", "price": 270, "size": "270ml / 355ml", "description": "Espresso, şekersiz karamel, süt. 270ml 270₺ / 355ml 300₺. Süt ürünü, kafein içerir." },
-    { "id": "coconut-latte", "name": "Coconut Latte", "price": 250, "size": "270ml / 355ml", "description": "Espresso, hindistan cevizi, süt. 270ml 250₺ / 355ml 290₺. Süt ürünü, kafein içerir." },
+    { "id": "madagascar-vanilla-latte", "name": "Madagascar Vanilla Latte", "price": 0, "priceLabel": "250 / 290₺", "size": "270ml / 355ml", "description": "Espresso, Madagaskar vanilya, süt. Süt ürünü, kafein içerir." },
+    { "id": "sugarfree-vanilla-latte", "name": "Sugarfree Vanilla Latte", "price": 0, "priceLabel": "270 / 300₺", "size": "270ml / 355ml", "description": "Espresso, şekersiz vanilya, süt. Süt ürünü, kafein içerir." },
+    { "id": "caramel-latte", "name": "Caramel Latte", "price": 0, "priceLabel": "250 / 290₺", "size": "270ml / 355ml", "description": "Espresso, karamel, süt. Süt ürünü, kafein içerir." },
+    { "id": "sugarfree-caramel-latte", "name": "Sugarfree Caramel Latte", "price": 0, "priceLabel": "270 / 300₺", "size": "270ml / 355ml", "description": "Espresso, şekersiz karamel, süt. Süt ürünü, kafein içerir." },
+    { "id": "coconut-latte", "name": "Coconut Latte", "price": 0, "priceLabel": "250 / 290₺", "size": "270ml / 355ml", "description": "Espresso, hindistan cevizi, süt. Süt ürünü, kafein içerir." },
     { "id": "flat-white", "name": "Flat White", "price": 240, "size": "270ml", "description": "Çift shot espresso, kadifemsi süt. Süt ürünü, kafein içerir." },
     { "id": "mocha", "name": "Mocha Black / White", "price": 240, "size": "270ml", "description": "Espresso, çikolata (bitter veya beyaz), süt. Süt ürünü, kafein içerir." }
   ],
   "brew-bar": [
-    { "id": "filtre-kahve", "name": "Filtre Kahve", "price": 180, "size": "240ml / 355ml", "description": "Öğütülmüş filtre kahve. 240ml 180₺ / 355ml 240₺. Kafein içerir." },
+    { "id": "filtre-kahve", "name": "Filtre Kahve", "price": 0, "priceLabel": "180 / 240₺", "size": "240ml / 355ml", "description": "Öğütülmüş filtre kahve. Kafein içerir." },
     { "id": "hario-v60", "name": "Hario V60", "price": 215, "size": "240ml", "description": "V60 demleme filtre kahve. Kafein içerir." },
     { "id": "turk-kahvesi", "name": "Türk Kahvesi", "price": 160, "size": "80ml", "description": "Geleneksel Türk kahvesi. Kafein içerir." },
     { "id": "double-turk-kahvesi", "name": "Double Türk Kahvesi", "price": 210, "description": "Çift porsiyon Türk kahvesi. Kafein içerir." }
   ],
   "sicak-matcha": [
-    { "id": "matcha-latte", "name": "Matcha Latte", "price": 300, "description": "Japon matcha tozu, süt. Süt ürünü, kafein içerir." },
-    { "id": "vanilla-matcha-latte", "name": "Vanilla Matcha Latte", "price": 330, "description": "Matcha, vanilya, süt. Süt ürünü, kafein içerir." },
-    { "id": "coconut-matcha-latte", "name": "Coconut Matcha Latte", "price": 330, "description": "Matcha, hindistan cevizi, süt. Süt ürünü, kafein içerir." },
-    { "id": "strawberry-matcha-latte", "name": "Strawberry Matcha Latte", "price": 330, "description": "Matcha, çilek, süt. Süt ürünü, kafein içerir." }
+    { "id": "matcha-latte", "name": "Matcha Latte", "price": 235, "description": "Japon matcha tozu, süt. Süt ürünü, kafein içerir." },
+    { "id": "vanilla-matcha-latte", "name": "Vanilla Matcha Latte", "price": 285, "description": "Matcha, vanilya, süt. Süt ürünü, kafein içerir." },
+    { "id": "coconut-matcha-latte", "name": "Coconut Matcha Latte", "price": 285, "description": "Matcha, hindistan cevizi, süt. Süt ürünü, kafein içerir." },
+    { "id": "strawberry-matcha-latte", "name": "Strawberry Matcha Latte", "price": 285, "description": "Matcha, çilek, süt. Süt ürünü, kafein içerir." }
   ],
   "sicak-farkli": [
     { "id": "sicak-cikolata", "name": "Sıcak Çikolata", "price": 215, "size": "355ml", "description": "Sıcak süt, çikolata. Süt ürünü içerir." }
@@ -78,7 +80,7 @@
     { "id": "buzlu-caramel-latte", "name": "Buzlu Caramel Latte", "price": 270, "description": "Buzlu espresso, karamel, süt. Süt ürünü, kafein içerir." },
     { "id": "buzlu-sugarfree-caramel-latte", "name": "Buzlu Sugarfree Caramel Latte", "price": 280, "description": "Buzlu espresso, şekersiz karamel, süt. Süt ürünü, kafein içerir." },
     { "id": "buzlu-coconut-latte", "name": "Buzlu Coconut Latte", "price": 270, "description": "Buzlu espresso, hindistan cevizi, süt. Süt ürünü, kafein içerir." },
-    { "id": "buzlu-matcha-latte", "name": "Buzlu Matcha Latte", "price": 305, "description": "Buzlu matcha, soğuk süt. Süt ürünü, kafein içerir." }
+    { "id": "buzlu-matcha-latte", "name": "Buzlu Matcha Latte", "price": 255, "description": "Buzlu matcha, soğuk süt. Süt ürünü, kafein içerir." }
   ],
   "limonata": [
     { "id": "limonata", "name": "Limonata", "price": 245, "size": "355ml", "description": "Taze sıkılmış limon, şeker." },
@@ -90,10 +92,10 @@
     { "id": "buzlu-seftalili-ice-tea", "name": "Buzlu Şeftalili Ice Tea", "price": 270, "size": "355ml", "description": "Soğuk şeftalili çay." }
   ],
   "soguk-matcha": [
-    { "id": "buzlu-matcha-latte-2", "name": "Buzlu Matcha Latte", "price": 305, "description": "Buzlu matcha, soğuk süt. Süt ürünü, kafein içerir." },
-    { "id": "buzlu-vanilla-matcha-latte", "name": "Buzlu Vanilla Matcha Latte", "price": 345, "description": "Buzlu matcha, vanilya, süt. Süt ürünü, kafein içerir." },
-    { "id": "buzlu-coconut-matcha-latte", "name": "Buzlu Coconut Matcha Latte", "price": 345, "description": "Buzlu matcha, hindistan cevizi, süt. Süt ürünü, kafein içerir." },
-    { "id": "buzlu-strawberry-matcha-latte", "name": "Buzlu Strawberry Matcha Latte", "price": 345, "description": "Buzlu matcha, çilek, süt. Süt ürünü, kafein içerir." }
+    { "id": "buzlu-matcha-latte-2", "name": "Buzlu Matcha Latte", "price": 255, "description": "Buzlu matcha, soğuk süt. Süt ürünü, kafein içerir." },
+    { "id": "buzlu-vanilla-matcha-latte", "name": "Buzlu Vanilla Matcha Latte", "price": 305, "description": "Buzlu matcha, vanilya, süt. Süt ürünü, kafein içerir." },
+    { "id": "buzlu-coconut-matcha-latte", "name": "Buzlu Coconut Matcha Latte", "price": 305, "description": "Buzlu matcha, hindistan cevizi, süt. Süt ürünü, kafein içerir." },
+    { "id": "buzlu-strawberry-matcha-latte", "name": "Buzlu Strawberry Matcha Latte", "price": 305, "description": "Buzlu matcha, çilek, süt. Süt ürünü, kafein içerir." }
   ],
   "soguk-farkli": [
     { "id": "affogato", "name": "Affogato", "price": 0, "priceLabel": "Yakında", "description": "Dondurma üzerine espresso. Süt ürünü, kafein içerir." },
@@ -117,6 +119,7 @@
     { "id": "espresso-shot", "name": "Espresso Shot", "price": 60, "description": "Ekstra tek shot espresso. Kafein içerir." }
   ],
   "kampanya": [
-    { "id": "cheesecake-kahve", "name": "Cheesecake + Kahve", "price": 350, "description": "Bir dilim cheesecake ve filtre kahve. Gluten, yumurta, süt ürünü, kafein içerir." }
+    { "id": "cheesecake-kahve", "name": "Cheesecake + Filtre Kahve", "price": 350, "description": "Bir dilim cheesecake ve filtre kahve. Gluten, yumurta, süt ürünü, kafein içerir." },
+    { "id": "pizza-cola", "name": "Pizza + Cola", "price": 410, "size": "Margherita / Karışık", "description": "Pizza (Margherita veya Karışık) ve Cola. Gluten, süt ürünü, kafein içerir." }
   ]
 }

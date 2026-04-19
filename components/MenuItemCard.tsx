@@ -25,7 +25,7 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
         )}
       </div>
       <span className="text-[13px] font-bold text-stone-900 whitespace-nowrap tabular-nums">
-        {item.price > 0 ? `${item.price}₺` : ''}
+        {item.price > 0 ? `${item.price}₺` : item.priceLabel || ''}
       </span>
     </div>
   );

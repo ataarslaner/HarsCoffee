@@ -6,7 +6,8 @@ export const MenuItemSchema = z.object({
   price: z.number(),
   image: z.string().optional(),
   size: z.string().optional(),
-  description: z.string().optional()
+  description: z.string().optional(),
+  priceLabel: z.string().optional()
 });
 
 export const MenuSchema = z.record(

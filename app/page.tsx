@@ -27,18 +27,23 @@ const layout: LayoutEntry[] = [
     rows: [
       ['soguk-kahve', 'soguk-matcha'],
       ['limonata', 'soguk-cay'],
-      ['soguk-farkli', 'smoothie'],
     ],
   },
   {
     title: 'Yiyecekler',
     rows: [
-      ['sandvic', 'pizza'],
-      ['firin', 'bowl'],
-      ['tatlilar', '_logo'],
+      ['pizza', 'tatlilar'],
     ],
   },
   ['soguk-icecekler', 'ekstralar'],
+  {
+    title: 'Yakında',
+    rows: [
+      ['sandvic', 'firin'],
+      ['bowl', 'soguk-farkli'],
+      'smoothie',
+    ],
+  },
 ];
 
 function CategorySection({ categoryId, menu, sectionRef }: {

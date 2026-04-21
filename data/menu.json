@@ -1,21 +1,21 @@
 {
   "sandvic": [
-    { "id": "hars-italyan-sandvic", "name": "Hars İtalyan Sandviç", "price": 0, "priceLabel": "Yakında", "size": "Mini / Regular", "description": "Zeytinli ekşi maya ekmek, taze mozzarella, pesto, roka, kaju & Antep fıstığı, kuru domates, zeytinyağı. Gluten, süt ürünü, kabuklu yemiş içerir." },
-    { "id": "hars-melt", "name": "Hars Melt", "price": 0, "priceLabel": "Yakında", "size": "Mini / Regular", "description": "Ekşi mayalı ekmek, hindi füme (60gr), kaşar & cheddar (70gr), turşu (30gr), özel sos (mayo+hardal, 20gr). Gluten, süt ürünü içerir." },
-    { "id": "hars-falafel-wrap", "name": "Hars Falafel Wrap", "price": 0, "priceLabel": "Yakında", "description": "İnce lavaş, falafel (140gr), marul (20gr), turşu (30gr), domates (40gr), yoğurtlu sos (sarımsak+limon, 15gr), acı sos (15gr). Gluten, süt ürünü içerir." }
+    { "id": "hars-italyan-sandvic", "name": "Hars İtalyan Sandviç", "price": 320, "description": "Zeytinli ekşi maya ekmek, taze mozzarella, labne, pesto, roka, kaju & Antep fıstığı, kuru domates, zeytinyağı. Gluten, süt ürünü, kabuklu yemiş içerir." },
+    { "id": "hars-melt", "name": "Hars Melt", "price": 320, "description": "Ekşi mayalı ekmek, hindi füme (60gr), kaşar & cheddar (70gr), turşu (30gr), özel sos (mayo+hardal, 20gr). Gluten, süt ürünü içerir." },
+    { "id": "hars-falafel-wrap", "name": "Hars Falafel Wrap", "price": 220, "description": "İnce lavaş, falafel (140gr), marul (20gr), turşu (30gr), domates (40gr), yoğurtlu sos (sarımsak+limon, 15gr), acı sos (15gr). Gluten, süt ürünü içerir." }
   ],
   "pizza": [
     { "id": "margherita-pizza", "name": "Margherita Pizza", "price": 320, "description": "Domates sos, mozzarella, fesleğen. Gluten, süt ürünü içerir." },
     { "id": "mixed-pizza", "name": "Mixed Pizza", "price": 350, "description": "Karışık malzemeli pizza. Gluten, süt ürünü içerir." }
   ],
   "firin": [
-    { "id": "firin-patates", "name": "Fırın Patates", "price": 0, "priceLabel": "Yakında", "size": "Baharatsız / Baharatlı / Parmesanlı", "description": "Fırın patates, baharatsız, baharatlı veya parmesanlı seçenekli. Süt ürünü içerebilir." },
-    { "id": "firin-nacho", "name": "Fırın Nacho", "price": 0, "priceLabel": "Yakında", "size": "Sade / Peynirli Jalapeñolu", "description": "Fırın nacho, guacamole sos, sade veya peynirli jalapeñolu seçenekli. Süt ürünü içerebilir." }
+    { "id": "firin-patates", "name": "Fırın Patates", "price": 0, "priceLabel": "100 / 120 / 190₺", "size": "Baharatsız / Baharatlı / Parmesanlı", "description": "Fırın patates, baharatsız, baharatlı veya parmesanlı seçenekli. Süt ürünü içerebilir." },
+    { "id": "firin-nacho", "name": "Fırın Nacho", "price": 0, "priceLabel": "160 / 190₺", "size": "Sade / Peynirli Jalapeñolu", "description": "Fırın nacho, guacamole sos, sade veya peynirli jalapeñolu seçenekli. Süt ürünü içerebilir." }
   ],
   "bowl": [
-    { "id": "hars-green-bowl", "name": "Hars Green Bowl", "price": 0, "priceLabel": "Yakında", "description": "Yeşillik mix (150gr), kokteyl domates (60gr), salatalık (60gr), tulum peyniri (40gr), ekşi mayalı ekmek kırıntıları, lima & zeytinyağı sos (25gr). Süt ürünü içerir." },
-    { "id": "hars-tuna-protein", "name": "Hars Tuna Protein Bowl", "price": 0, "priceLabel": "Yakında", "description": "Ton balığı (80gr), yeşillik (100gr), salatalık (60gr), kokteyl domates (60gr), ekşi mayalı ekmek kırıntıları, mısır (40gr), lima & zeytinyağı sos (25gr)." },
-    { "id": "hars-falafel-bowl", "name": "Hars Falafel Bowl", "price": 0, "priceLabel": "Yakında", "description": "Falafel (150gr), yeşillik (100gr), turşu (40gr), yoğurtlu sos veya tahin+limon sos seçenekli. Süt ürünü içerebilir." }
+    { "id": "hars-green-bowl", "name": "Hars Green Bowl", "price": 210, "description": "Yeşillik mix (150gr), kokteyl domates (60gr), salatalık (60gr), tulum peyniri (40gr), ekşi mayalı ekmek kırıntıları, lima & zeytinyağı sos (25gr). Süt ürünü içerir." },
+    { "id": "hars-tuna-protein", "name": "Hars Tuna Protein Bowl", "price": 300, "description": "Ton balığı (80gr), yeşillik (100gr), salatalık (60gr), kokteyl domates (60gr), ekşi mayalı ekmek kırıntıları, mısır (40gr), lima & zeytinyağı sos (25gr)." },
+    { "id": "hars-falafel-bowl", "name": "Hars Falafel Bowl", "price": 250, "description": "Falafel (150gr), yeşillik (100gr), turşu (40gr), yoğurtlu sos veya tahin+limon sos seçenekli. Süt ürünü içerebilir." }
   ],
   "tatlilar": [
     { "id": "hars-cake", "name": "Hars Cake", "price": 160, "description": "Özel tarif kek. Gluten, yumurta, süt ürünü içerir." },
@@ -95,10 +95,11 @@
     { "id": "buzlu-strawberry-matcha-latte", "name": "Buzlu Strawberry Matcha Latte", "price": 305, "description": "Buzlu matcha, çilek, süt. Süt ürünü, kafein içerir." }
   ],
   "soguk-farkli": [
-    { "id": "affogato", "name": "Affogato", "price": 0, "priceLabel": "Yakında", "description": "Dondurma üzerine espresso. Süt ürünü, kafein içerir." },
-    { "id": "espresso-milkshake", "name": "Espresso Milkshake", "price": 0, "priceLabel": "Yakında", "description": "Espresso, dondurma, süt. Süt ürünü, kafein içerir." },
-    { "id": "vanilla-milkshake", "name": "Vanilla Milkshake", "price": 0, "priceLabel": "Yakında", "description": "Vanilya, dondurma, süt. Süt ürünü içerir." },
-    { "id": "kakao-milkshake", "name": "Kakao Milkshake", "price": 0, "priceLabel": "Yakında", "description": "Kakao, dondurma, süt. Süt ürünü içerir." }
+    { "id": "affogato", "name": "Affogato", "price": 215, "description": "Dondurma üzerine espresso. Süt ürünü, kafein içerir." },
+    { "id": "espresso-milkshake", "name": "Espresso Milkshake", "price": 250, "description": "Espresso, dondurma, süt. Süt ürünü, kafein içerir." },
+    { "id": "vanilla-milkshake", "name": "Vanilla Milkshake", "price": 270, "description": "Vanilya, dondurma, süt. Süt ürünü içerir." },
+    { "id": "kakao-milkshake", "name": "Çikolatalı Milkshake", "price": 270, "description": "Kakao, dondurma, süt. Süt ürünü içerir." },
+    { "id": "italyan-karamel-milkshake", "name": "İtalyan Karamel Milkshake", "price": 270, "description": "İtalyan karamel, dondurma, süt. Süt ürünü içerir." }
   ],
   "soguk-icecekler": [
     { "id": "su", "name": "Su (400ml)", "price": 60, "description": "Doğal kaynak suyu." },

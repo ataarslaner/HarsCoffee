@@ -34,9 +34,10 @@ export const categories = [
   { id: 'soguk-cay', label: 'Soğuk Çay' },
   { id: 'soguk-matcha', label: 'Matcha' },
   { id: 'soguk-farkli', label: 'Farklı' },
-  { id: 'smoothie', label: 'Smoothie' },
   { id: 'soguk-icecekler', label: 'Soğuk İçecekler' },
-  { id: 'ekstralar', label: 'Ekstralar' }
+  { id: 'suruplar', label: 'Şuruplar' },
+  { id: 'sutler', label: 'Sütler' },
+  { id: 'espresso-shot', label: 'Espresso Shot' },
 ] as const;
 
 export type CategoryId = typeof categories[number]['id']; 

@@ -1,9 +1,7 @@
 {
   "sandvic": [
-    { "id": "uc-peynirli-sandvic", "name": "Üç Peynirli Sandviç", "price": 180, "description": "Kaşar, beyaz peynir, çedar. Gluten, süt ürünü içerir." },
-    { "id": "hindi-fume-sandvic", "name": "Hindi Füme Sandviç", "price": 180, "description": "Füme hindi, taze yeşillik. Gluten, süt ürünü içerir." },
-    { "id": "hars-italyan-sandvic", "name": "Hars İtalyan Sandviç", "price": 0, "priceLabel": "Yakında", "size": "Mini / Regular", "description": "Ekşi maya tam buğday ekmek, taze mozzarella, pesto, roka, kaju & Antep fıstığı, közde domates, zeytinyağı. Gluten, süt ürünü, kabuklu yemiş içerir." },
-    { "id": "hars-melt", "name": "Hars Melt", "price": 0, "priceLabel": "Yakında", "size": "Mini / Regular", "description": "Arıstan ekmek, hindi füme (60gr), kaşar & cheddar (70gr), turşu (30gr), özel sos (mayo+hardal, 20gr). Gluten, süt ürünü içerir." },
+    { "id": "hars-italyan-sandvic", "name": "Hars İtalyan Sandviç", "price": 0, "priceLabel": "Yakında", "size": "Mini / Regular", "description": "Zeytinli ekşi maya ekmek, taze mozzarella, pesto, roka, kaju & Antep fıstığı, kuru domates, zeytinyağı. Gluten, süt ürünü, kabuklu yemiş içerir." },
+    { "id": "hars-melt", "name": "Hars Melt", "price": 0, "priceLabel": "Yakında", "size": "Mini / Regular", "description": "Ekşi mayalı ekmek, hindi füme (60gr), kaşar & cheddar (70gr), turşu (30gr), özel sos (mayo+hardal, 20gr). Gluten, süt ürünü içerir." },
     { "id": "hars-falafel-wrap", "name": "Hars Falafel Wrap", "price": 0, "priceLabel": "Yakında", "description": "İnce lavaş, falafel (140gr), marul (20gr), turşu (30gr), domates (40gr), yoğurtlu sos (sarımsak+limon, 15gr), acı sos (15gr). Gluten, süt ürünü içerir." }
   ],
   "pizza": [
@@ -11,12 +9,12 @@
     { "id": "mixed-pizza", "name": "Mixed Pizza", "price": 350, "description": "Karışık malzemeli pizza. Gluten, süt ürünü içerir." }
   ],
   "firin": [
-    { "id": "firin-patates", "name": "Fırın Patates", "price": 0, "priceLabel": "Yakında", "size": "Baharatlı / Baharatsız", "description": "Fırın patates, baharatlı veya baharatsız seçenekli." },
-    { "id": "firin-nacho", "name": "Fırın Nacho", "price": 0, "priceLabel": "Yakında", "size": "Sade / Peynirli Jalapeñolu", "description": "Fırın nacho, sade veya peynirli jalapeñolu seçenekli. Süt ürünü içerebilir." }
+    { "id": "firin-patates", "name": "Fırın Patates", "price": 0, "priceLabel": "Yakında", "size": "Baharatsız / Baharatlı / Parmesanlı", "description": "Fırın patates, baharatsız, baharatlı veya parmesanlı seçenekli. Süt ürünü içerebilir." },
+    { "id": "firin-nacho", "name": "Fırın Nacho", "price": 0, "priceLabel": "Yakında", "size": "Sade / Peynirli Jalapeñolu", "description": "Fırın nacho, guacamole sos, sade veya peynirli jalapeñolu seçenekli. Süt ürünü içerebilir." }
   ],
   "bowl": [
-    { "id": "hars-green-bowl", "name": "Hars Green Bowl", "price": 0, "priceLabel": "Yakında", "description": "Yeşillik mix (150gr), cherry domates (60gr), salatalık (60gr), kreta peyniri (40gr), lima & zeytinyağı sos (25gr). Süt ürünü içerir." },
-    { "id": "hars-tuna-protein", "name": "Hars Tuna Protein Bowl", "price": 0, "priceLabel": "Yakında", "description": "Ton balığı (120gr), yeşillik (100gr), salatalık (60gr), cherry domates (60gr), mısır (40gr), lima & zeytinyağı sos (25gr)." },
+    { "id": "hars-green-bowl", "name": "Hars Green Bowl", "price": 0, "priceLabel": "Yakında", "description": "Yeşillik mix (150gr), kokteyl domates (60gr), salatalık (60gr), tulum peyniri (40gr), ekşi mayalı ekmek kırıntıları, lima & zeytinyağı sos (25gr). Süt ürünü içerir." },
+    { "id": "hars-tuna-protein", "name": "Hars Tuna Protein Bowl", "price": 0, "priceLabel": "Yakında", "description": "Ton balığı (80gr), yeşillik (100gr), salatalık (60gr), kokteyl domates (60gr), ekşi mayalı ekmek kırıntıları, mısır (40gr), lima & zeytinyağı sos (25gr)." },
     { "id": "hars-falafel-bowl", "name": "Hars Falafel Bowl", "price": 0, "priceLabel": "Yakında", "description": "Falafel (150gr), yeşillik (100gr), turşu (40gr), yoğurtlu sos veya tahin+limon sos seçenekli. Süt ürünü içerebilir." }
   ],
   "tatlilar": [
@@ -27,27 +25,30 @@
     { "id": "profiterollu-cikolatali-mono-pasta", "name": "Profiterollü Çikolatalı Mono Pasta", "price": 280, "description": "Profiterol, bitter çikolata. Gluten, yumurta, süt ürünü içerir." },
     { "id": "cafe-latte-mono-pasta", "name": "Cafe Latte Mono Pasta", "price": 280, "description": "Kahve kremalı pasta. Gluten, yumurta, süt ürünü içerir. Kafein içerir." },
     { "id": "italian-tiramisu-cake", "name": "Italian Tiramisu Cake", "price": 280, "description": "Mascarpone, espresso, kakao. Gluten, yumurta, süt ürünü içerir. Kafein içerir." },
-    { "id": "antep-fistikli-kremali-pasta", "name": "Antep Fıstıklı Kremalı Pasta", "price": 320, "description": "Antep fıstığı, krema. Gluten, yumurta, süt ürünü, kabuklu yemiş içerir." }
+    { "id": "antep-fistikli-cikolatali-solen", "name": "Antep Fıstıklı Çikolatalı Şölen", "price": 340, "description": "Antep fıstığı, çikolata. Gluten, yumurta, süt ürünü, kabuklu yemiş içerir." },
+    { "id": "lotus-magnolia", "name": "Lotus Magnolia", "price": 220, "description": "Lotus bisküvi, krema. Gluten, yumurta, süt ürünü içerir." },
+    { "id": "nutella-magnolia", "name": "Nutella Magnolia", "price": 220, "description": "Nutella, krema. Gluten, yumurta, süt ürünü, kabuklu yemiş içerir." },
+    { "id": "areo-biskuvili-magnolia", "name": "Aero Bisküvili Magnolia", "price": 220, "description": "Aero bisküvi, krema. Gluten, yumurta, süt ürünü içerir." }
   ],
   "sicak-espresso": [
-    { "id": "espresso", "name": "Espresso", "price": 170, "size": "45ml", "description": "Tek shot espresso. Kafein içerir." },
-    { "id": "americano", "name": "Americano", "price": 0, "priceLabel": "200 / 220₺", "size": "240ml / 355ml", "description": "Espresso ve sıcak su. Kafein içerir." },
-    { "id": "cortado", "name": "Cortado", "price": 195, "size": "120ml", "description": "Espresso ve az miktarda sıcak süt. Süt ürünü, kafein içerir." },
-    { "id": "spanish-cortado", "name": "Spanish Cortado", "price": 210, "size": "120ml", "description": "Espresso, yoğunlaştırılmış süt. Süt ürünü, kafein içerir." },
-    { "id": "cappuccino", "name": "Cappuccino", "price": 220, "size": "240ml", "description": "Espresso, buharlanmış süt, köpük. Süt ürünü, kafein içerir." },
-    { "id": "latte", "name": "Latte", "price": 220, "size": "240ml", "description": "Espresso ve bol süt. Süt ürünü, kafein içerir." },
-    { "id": "madagascar-vanilla-latte", "name": "Madagascar Vanilla Latte", "price": 0, "priceLabel": "250 / 290₺", "size": "270ml / 355ml", "description": "Espresso, Madagaskar vanilya, süt. Süt ürünü, kafein içerir." },
-    { "id": "sugarfree-vanilla-latte", "name": "Sugarfree Vanilla Latte", "price": 0, "priceLabel": "270 / 300₺", "size": "270ml / 355ml", "description": "Espresso, şekersiz vanilya, süt. Süt ürünü, kafein içerir." },
-    { "id": "caramel-latte", "name": "Caramel Latte", "price": 0, "priceLabel": "250 / 290₺", "size": "270ml / 355ml", "description": "Espresso, karamel, süt. Süt ürünü, kafein içerir." },
-    { "id": "sugarfree-caramel-latte", "name": "Sugarfree Caramel Latte", "price": 0, "priceLabel": "270 / 300₺", "size": "270ml / 355ml", "description": "Espresso, şekersiz karamel, süt. Süt ürünü, kafein içerir." },
-    { "id": "coconut-latte", "name": "Coconut Latte", "price": 0, "priceLabel": "250 / 290₺", "size": "270ml / 355ml", "description": "Espresso, hindistan cevizi, süt. Süt ürünü, kafein içerir." },
-    { "id": "flat-white", "name": "Flat White", "price": 240, "size": "270ml", "description": "Çift shot espresso, kadifemsi süt. Süt ürünü, kafein içerir." },
-    { "id": "mocha", "name": "Mocha Black / White", "price": 240, "size": "270ml", "description": "Espresso, çikolata (bitter veya beyaz), süt. Süt ürünü, kafein içerir." }
+    { "id": "espresso", "name": "Espresso", "price": 170, "description": "Tek shot espresso. Kafein içerir." },
+    { "id": "americano", "name": "Americano", "price": 0, "priceLabel": "200 / 220₺", "size": "Normal / Büyük", "description": "Espresso ve sıcak su. Kafein içerir." },
+    { "id": "cortado", "name": "Cortado", "price": 195, "description": "Espresso ve az miktarda sıcak süt. Süt ürünü, kafein içerir." },
+    { "id": "spanish-cortado", "name": "Spanish Cortado", "price": 210, "description": "Espresso, yoğunlaştırılmış süt. Süt ürünü, kafein içerir." },
+    { "id": "cappuccino", "name": "Cappuccino", "price": 220, "description": "Espresso, buharlanmış süt, köpük. Süt ürünü, kafein içerir." },
+    { "id": "latte", "name": "Latte", "price": 220, "description": "Espresso ve bol süt. Süt ürünü, kafein içerir." },
+    { "id": "madagascar-vanilla-latte", "name": "Madagascar Vanilla Latte", "price": 0, "priceLabel": "250 / 290₺", "size": "Normal / Büyük", "description": "Espresso, Madagaskar vanilya, süt. Süt ürünü, kafein içerir." },
+    { "id": "sugarfree-vanilla-latte", "name": "Sugarfree Vanilla Latte", "price": 0, "priceLabel": "270 / 300₺", "size": "Normal / Büyük", "description": "Espresso, şekersiz vanilya, süt. Süt ürünü, kafein içerir." },
+    { "id": "caramel-latte", "name": "Caramel Latte", "price": 0, "priceLabel": "250 / 290₺", "size": "Normal / Büyük", "description": "Espresso, karamel, süt. Süt ürünü, kafein içerir." },
+    { "id": "sugarfree-caramel-latte", "name": "Sugarfree Caramel Latte", "price": 0, "priceLabel": "270 / 300₺", "size": "Normal / Büyük", "description": "Espresso, şekersiz karamel, süt. Süt ürünü, kafein içerir." },
+    { "id": "coconut-latte", "name": "Coconut Latte", "price": 0, "priceLabel": "250 / 290₺", "size": "Normal / Büyük", "description": "Espresso, hindistan cevizi, süt. Süt ürünü, kafein içerir." },
+    { "id": "flat-white", "name": "Flat White", "price": 240, "description": "Çift shot espresso, kadifemsi süt. Süt ürünü, kafein içerir." },
+    { "id": "mocha", "name": "Mocha Black / White", "price": 240, "description": "Espresso, çikolata (bitter veya beyaz), süt. Süt ürünü, kafein içerir." }
   ],
   "brew-bar": [
-    { "id": "filtre-kahve", "name": "Filtre Kahve", "price": 0, "priceLabel": "180 / 240₺", "size": "240ml / 355ml", "description": "Öğütülmüş filtre kahve. Kafein içerir." },
-    { "id": "hario-v60", "name": "Hario V60", "price": 215, "size": "240ml", "description": "V60 demleme filtre kahve. Kafein içerir." },
-    { "id": "turk-kahvesi", "name": "Türk Kahvesi", "price": 160, "size": "80ml", "description": "Geleneksel Türk kahvesi. Kafein içerir." },
+    { "id": "filtre-kahve", "name": "Filtre Kahve", "price": 0, "priceLabel": "180 / 240₺", "size": "Normal / Büyük", "description": "Öğütülmüş filtre kahve. Kafein içerir." },
+    { "id": "hario-v60", "name": "Hario V60", "price": 215, "description": "V60 demleme filtre kahve. Kafein içerir." },
+    { "id": "turk-kahvesi", "name": "Türk Kahvesi", "price": 160, "description": "Geleneksel Türk kahvesi. Kafein içerir." },
     { "id": "double-turk-kahvesi", "name": "Double Türk Kahvesi", "price": 210, "description": "Çift porsiyon Türk kahvesi. Kafein içerir." }
   ],
   "sicak-matcha": [
@@ -57,18 +58,14 @@
     { "id": "strawberry-matcha-latte", "name": "Strawberry Matcha Latte", "price": 285, "description": "Matcha, çilek, süt. Süt ürünü, kafein içerir." }
   ],
   "sicak-farkli": [
-    { "id": "sicak-cikolata", "name": "Sıcak Çikolata", "price": 215, "size": "355ml", "description": "Sıcak süt, çikolata. Süt ürünü içerir." }
-  ],
-  "smoothie": [
-    { "id": "muzlu-kakaolu-smoothie", "name": "Muzlu Kakaolu Smoothie", "price": 0, "priceLabel": "Yakında", "size": "355ml", "description": "Muz, kakao, süt. Süt ürünü içerir." },
-    { "id": "orman-meyveli-smoothie", "name": "Orman Meyveli Smoothie", "price": 0, "priceLabel": "Yakında", "size": "355ml", "description": "Karışık orman meyveleri. Süt ürünü içerebilir." },
-    { "id": "yesil-smoothie", "name": "Yeşil Smoothie", "price": 0, "priceLabel": "Yakında", "size": "355ml", "description": "Elma, ıspanak, limon, zencefil." }
+    { "id": "sicak-cikolata", "name": "Sıcak Çikolata", "price": 215, "description": "Sıcak süt, çikolata. Süt ürünü içerir." }
   ],
   "caylar": [
     { "id": "cay", "name": "Çay", "price": 80, "description": "Demlik siyah çay. Kafein içerir." },
     { "id": "kupa-cay", "name": "Kupa Çay", "price": 130, "description": "Büyük boy demlik çay. Kafein içerir." },
     { "id": "yesil-cay", "name": "Yeşil Çay", "price": 220, "description": "Doğal yeşil çay. Kafein içerir." },
-    { "id": "earl-grey", "name": "Earl Grey", "price": 230, "description": "Bergamot aromalı siyah çay. Kafein içerir." }
+    { "id": "earl-grey", "name": "Earl Grey", "price": 230, "description": "Bergamot aromalı siyah çay. Kafein içerir." },
+    { "id": "orman-meyveli-cay", "name": "Orman Meyveli Çay", "price": 220, "description": "Karışık orman meyveleri çayı." }
   ],
   "soguk-kahve": [
     { "id": "cold-brew", "name": "Cold Brew", "price": 240, "description": "Soğuk demleme kahve. Kafein içerir." },
@@ -83,13 +80,13 @@
     { "id": "buzlu-matcha-latte", "name": "Buzlu Matcha Latte", "price": 255, "description": "Buzlu matcha, soğuk süt. Süt ürünü, kafein içerir." }
   ],
   "limonata": [
-    { "id": "limonata", "name": "Limonata", "price": 245, "size": "355ml", "description": "Taze sıkılmış limon, şeker." },
-    { "id": "cilekli-limonata", "name": "Çilekli Limonata", "price": 270, "size": "355ml", "description": "Taze limonata, çilek." }
+    { "id": "limonata", "name": "Limonata", "price": 245, "description": "Taze sıkılmış limon, şeker." },
+    { "id": "cilekli-limonata", "name": "Çilekli Limonata", "price": 270, "description": "Taze limonata, çilek." }
   ],
   "soguk-cay": [
-    { "id": "buzlu-hibiscus-ice-tea", "name": "Buzlu Hibiscus Ice Tea", "price": 270, "size": "355ml", "description": "Soğuk hibiscus çayı." },
-    { "id": "buzlu-limonlu-ice-tea", "name": "Buzlu Limonlu Ice Tea", "price": 270, "size": "355ml", "description": "Soğuk limonlu çay." },
-    { "id": "buzlu-seftalili-ice-tea", "name": "Buzlu Şeftalili Ice Tea", "price": 270, "size": "355ml", "description": "Soğuk şeftalili çay." }
+    { "id": "buzlu-hibiscus-ice-tea", "name": "Buzlu Hibiscus Ice Tea", "price": 270, "description": "Soğuk hibiscus çayı." },
+    { "id": "buzlu-limonlu-ice-tea", "name": "Buzlu Limonlu Ice Tea", "price": 270, "description": "Soğuk limonlu çay." },
+    { "id": "buzlu-seftalili-ice-tea", "name": "Buzlu Şeftalili Ice Tea", "price": 270, "description": "Soğuk şeftalili çay." }
   ],
   "soguk-matcha": [
     { "id": "buzlu-matcha-latte-2", "name": "Buzlu Matcha Latte", "price": 255, "description": "Buzlu matcha, soğuk süt. Süt ürünü, kafein içerir." },
@@ -109,14 +106,25 @@
     { "id": "coca-cola", "name": "Coca Cola (250ml)", "price": 120, "description": "Kafein içerir." },
     { "id": "uludag-premium", "name": "Uludağ Premium (250ml)", "price": 155, "description": "Mineralli doğal kaynak suyu." },
     { "id": "churchill", "name": "Churchill", "price": 195, "description": "Zencefilli gazlı içecek." },
-    { "id": "red-bull", "name": "Red Bull (250ml)", "price": 230, "description": "Enerji içeceği. Kafein, taurin içerir." }
+    { "id": "red-bull", "name": "Red Bull (250ml)", "price": 230, "description": "Enerji içeceği. Kafein, taurin içerir." },
+    { "id": "eker-ayran", "name": "Özerhisar Ayran", "price": 100, "description": "Süt ürünü içerir." }
   ],
-  "ekstralar": [
-    { "id": "caramel-syrup", "name": "Karamel Şurup", "price": 45, "description": "İçeceğe ek karamel aroması." },
-    { "id": "coconut-syrup", "name": "Hindistan Cevizi Şurup", "price": 45, "description": "İçeceğe ek hindistan cevizi aroması." },
-    { "id": "vanilla-syrup", "name": "Vanilya Şurup", "price": 45, "description": "İçeceğe ek vanilya aroması." },
-    { "id": "hazelnut-syrup", "name": "Fındık Şurup", "price": 45, "description": "İçeceğe ek fındık aroması. Kabuklu yemiş içerir." },
-    { "id": "espresso-shot", "name": "Espresso Shot", "price": 60, "description": "Ekstra tek shot espresso. Kafein içerir." }
+  "suruplar": [
+    { "id": "caramel-syrup", "name": "Karamel Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." },
+    { "id": "coconut-syrup", "name": "Hindistan Cevizi Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." },
+    { "id": "vanilla-syrup", "name": "Vanilya Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." },
+    { "id": "hazelnut-syrup", "name": "Fındık Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir. Kabuklu yemiş içerir." },
+    { "id": "white-chocolate-syrup", "name": "White Chocolate Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." },
+    { "id": "sugarfree-caramel-syrup", "name": "Sugar Free Karamel Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir. Şekersiz." },
+    { "id": "sugarfree-vanilla-syrup", "name": "Sugar Free Vanilya Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir. Şekersiz." },
+    { "id": "chocolate-syrup", "name": "Chocolate Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." }
+  ],
+  "sutler": [
+    { "id": "badem-sutu", "name": "Badem Sütü", "price": 45, "description": "Tüm kahvelerde süt alternatifi olarak kullanılabilir. Kabuklu yemiş içerir." },
+    { "id": "yulaf-sutu", "name": "Yulaf Sütü", "price": 45, "description": "Tüm kahvelerde süt alternatifi olarak kullanılabilir. Gluten içerebilir." }
+  ],
+  "espresso-shot": [
+    { "id": "espresso-shot", "name": "Espresso Shot", "price": 0, "priceLabel": "25 / 50₺", "size": "Single / Double", "description": "Tüm kahvelere ekstra shot olarak eklenebilir. Kafein içerir." }
   ],
   "kampanya": [
     { "id": "cheesecake-kahve", "name": "Cheesecake + Filtre Kahve", "price": 350, "description": "Bir dilim cheesecake ve filtre kahve. Gluten, yumurta, süt ürünü, kafein içerir." },

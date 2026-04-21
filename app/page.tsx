@@ -29,19 +29,21 @@ const layout: LayoutEntry[] = [
       ['limonata', 'soguk-cay'],
     ],
   },
+  'soguk-icecekler',
+  'soguk-farkli',
   {
     title: 'Yiyecekler',
     rows: [
       ['sandvic', 'pizza'],
+      ['firin', 'bowl'],
       'tatlilar',
     ],
   },
-  ['soguk-icecekler', 'ekstralar'],
   {
-    title: 'Yakında',
+    title: 'Ekstralar',
     rows: [
-      ['firin', 'bowl'],
-      ['soguk-farkli', 'smoothie'],
+      ['suruplar', 'sutler'],
+      'espresso-shot',
     ],
   },
 ];

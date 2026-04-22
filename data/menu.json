@@ -28,7 +28,7 @@
     { "id": "antep-fistikli-cikolatali-solen", "name": "Antep Fıstıklı Çikolatalı Şölen", "price": 340, "description": "Antep fıstığı, çikolata. Gluten, yumurta, süt ürünü, kabuklu yemiş içerir." },
     { "id": "lotus-magnolia", "name": "Lotus Magnolia", "price": 220, "description": "Lotus bisküvi, krema. Gluten, yumurta, süt ürünü içerir." },
     { "id": "nutella-magnolia", "name": "Nutella Magnolia", "price": 220, "description": "Nutella, krema. Gluten, yumurta, süt ürünü, kabuklu yemiş içerir." },
-    { "id": "areo-biskuvili-magnolia", "name": "Aero Bisküvili Magnolia", "price": 220, "description": "Aero bisküvi, krema. Gluten, yumurta, süt ürünü içerir." }
+    { "id": "oreo-biskuvili-magnolia", "name": "Oreo Bisküvili Magnolia", "price": 220, "description": "Oreo bisküvi, krema. Gluten, yumurta, süt ürünü içerir." }
   ],
   "sicak-espresso": [
     { "id": "espresso", "name": "Espresso", "price": 170, "description": "Tek shot espresso. Kafein içerir." },
@@ -106,29 +106,17 @@
     { "id": "soda", "name": "Soda (250ml)", "price": 110, "description": "Uludağ soda." },
     { "id": "coca-cola", "name": "Coca Cola (250ml)", "price": 120, "description": "Kafein içerir." },
     { "id": "uludag-premium", "name": "Uludağ Premium (250ml)", "price": 155, "description": "Mineralli doğal kaynak suyu." },
-    { "id": "churchill", "name": "Churchill", "price": 195, "description": "Zencefilli gazlı içecek." },
+    { "id": "churchill", "name": "Churchill", "price": 195, "description": "Tuz, gerçek limon suyu, soda" },
     { "id": "red-bull", "name": "Red Bull (250ml)", "price": 230, "description": "Enerji içeceği. Kafein, taurin içerir." },
     { "id": "eker-ayran", "name": "Özerhisar Ayran", "price": 100, "description": "Süt ürünü içerir." }
   ],
-  "suruplar": [
-    { "id": "caramel-syrup", "name": "Karamel Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." },
-    { "id": "coconut-syrup", "name": "Hindistan Cevizi Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." },
-    { "id": "vanilla-syrup", "name": "Vanilya Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." },
-    { "id": "hazelnut-syrup", "name": "Fındık Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir. Kabuklu yemiş içerir." },
-    { "id": "white-chocolate-syrup", "name": "White Chocolate Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." },
-    { "id": "sugarfree-caramel-syrup", "name": "Sugar Free Karamel Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir. Şekersiz." },
-    { "id": "sugarfree-vanilla-syrup", "name": "Sugar Free Vanilya Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir. Şekersiz." },
-    { "id": "chocolate-syrup", "name": "Chocolate Şurup", "price": 45, "description": "Tüm latte, mocha ve kahvelere eklenebilir." }
-  ],
-  "sutler": [
-    { "id": "badem-sutu", "name": "Badem Sütü", "price": 45, "description": "Tüm kahvelerde süt alternatifi olarak kullanılabilir. Kabuklu yemiş içerir." },
-    { "id": "yulaf-sutu", "name": "Yulaf Sütü", "price": 45, "description": "Tüm kahvelerde süt alternatifi olarak kullanılabilir. Gluten içerebilir." }
-  ],
-  "espresso-shot": [
-    { "id": "espresso-shot", "name": "Espresso Shot", "price": 0, "priceLabel": "25 / 50₺", "size": "Single / Double", "description": "Tüm kahvelere ekstra shot olarak eklenebilir. Kafein içerir." }
+  "ekstra": [
+    { "id": "ekstra-surup", "name": "Ekstra Şurup", "price": 45, "description": "Madagascar Vanilla, Sugar Free Vanilla, Sugar Free Karamel, Coconut, Strawberry. Tüm latte, mocha ve kahvelere eklenebilir." },
+    { "id": "espresso-shot", "name": "Ekstra Espresso Shot", "price": 0, "priceLabel": "25 / 50₺", "size": "Single / Double", "description": "Tüm kahvelere ekstra shot olarak eklenebilir. Kafein içerir." },
+    { "id": "ekstra-sut", "name": "Vegan Süt", "price": 45, "description": "Yulaf Sütü, Badem Sütü. Tüm kahvelerde süt alternatifi olarak kullanılabilir." }
   ],
   "kampanya": [
     { "id": "cheesecake-kahve", "name": "Cheesecake + Filtre Kahve", "price": 350, "description": "Bir dilim cheesecake ve filtre kahve. Gluten, yumurta, süt ürünü, kafein içerir." },
-    { "id": "pizza-cola", "name": "Pizza + Cola", "price": 410, "size": "Margherita / Karışık", "description": "Pizza (Margherita veya Karışık) ve Cola. Gluten, süt ürünü, kafein içerir." }
+    { "id": "pizza-cola", "name": "Pizza + Cola", "price": 370, "size": "Margherita / Karışık", "description": "Pizza (Margherita veya Karışık) ve Cola. Gluten, süt ürünü, kafein içerir." }
   ]
 }

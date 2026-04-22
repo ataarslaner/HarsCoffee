@@ -39,13 +39,7 @@ const layout: LayoutEntry[] = [
       'tatlilar',
     ],
   },
-  {
-    title: 'Ekstralar',
-    rows: [
-      ['suruplar', 'sutler'],
-      'espresso-shot',
-    ],
-  },
+  'ekstra',
 ];
 
 function CategorySection({ categoryId, menu, sectionRef }: {

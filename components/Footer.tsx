@@ -31,7 +31,7 @@ export function Footer() {
           </div>
           <div className="pt-4 border-t border-stone-700 w-full text-center">
             <p className="text-stone-500 text-[10px] uppercase tracking-widest">
-              © 2025 Hars Coffee
+              © 2024 Hars Coffee
             </p>
           </div>
         </div>

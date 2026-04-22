@@ -33,7 +33,7 @@ export const categories = [
   { id: 'limonata', label: 'Limonata' },
   { id: 'soguk-cay', label: 'Soğuk Çay' },
   { id: 'soguk-matcha', label: 'Matcha' },
-  { id: 'soguk-farkli', label: 'Farklı' },
+  { id: 'soguk-farkli', label: 'Mılkshake' },
   { id: 'soguk-icecekler', label: 'Soğuk İçecekler' },
   { id: 'ekstra', label: 'Ekstra' },
 ] as const;

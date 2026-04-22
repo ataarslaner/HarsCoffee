@@ -68,7 +68,8 @@
     { "id": "orman-meyveli-cay", "name": "Orman Meyveli Çay", "price": 220, "description": "Karışık orman meyveleri çayı." }
   ],
   "soguk-kahve": [
-    { "id": "cold-brew", "name": "Cold Brew", "price": 240, "description": "Soğuk demleme kahve. Kafein içerir." },
+    { "id": "cold-brew", "name": "Cold Brew", "price": 240, "size": "Sezon Ürünü", "description": "Soğuk demleme kahve. Kafein içerir." },
+    { "id": "affogato", "name": "Affogato", "price": 0, "priceLabel": "Yakında", "description": "Dondurma üzerine espresso. Süt ürünü, kafein içerir." },
     { "id": "buzlu-filtre", "name": "Buzlu Filtre", "price": 200, "description": "Soğuk filtre kahve, buz. Kafein içerir." },
     { "id": "buzlu-americano", "name": "Buzlu Americano", "price": 210, "description": "Buzlu espresso ve su. Kafein içerir." },
     { "id": "buzlu-latte", "name": "Buzlu Latte", "price": 230, "description": "Buzlu espresso ve soğuk süt. Süt ürünü, kafein içerir." },
@@ -95,7 +96,6 @@
     { "id": "buzlu-strawberry-matcha-latte", "name": "Buzlu Strawberry Matcha Latte", "price": 305, "description": "Buzlu matcha, çilek, süt. Süt ürünü, kafein içerir." }
   ],
   "soguk-farkli": [
-    { "id": "affogato", "name": "Affogato", "price": 215, "description": "Dondurma üzerine espresso. Süt ürünü, kafein içerir." },
     { "id": "espresso-milkshake", "name": "Espresso Milkshake", "price": 250, "description": "Espresso, dondurma, süt. Süt ürünü, kafein içerir." },
     { "id": "vanilla-milkshake", "name": "Vanilla Milkshake", "price": 270, "description": "Vanilya, dondurma, süt. Süt ürünü içerir." },
     { "id": "kakao-milkshake", "name": "Çikolatalı Milkshake", "price": 270, "description": "Kakao, dondurma, süt. Süt ürünü içerir." },

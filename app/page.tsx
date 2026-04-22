@@ -29,8 +29,8 @@ const layout: LayoutEntry[] = [
       ['limonata', 'soguk-cay'],
     ],
   },
-  'soguk-icecekler',
   'soguk-farkli',
+  'soguk-icecekler',
   {
     title: 'Yiyecekler',
     rows: [

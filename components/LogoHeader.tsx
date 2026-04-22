@@ -19,6 +19,20 @@ export function LogoHeader({ currentCategory, onCategoryChange }: LogoHeaderProp
         <p className="text-stone-400 font-medium tracking-[0.3em] uppercase text-[10px] mt-2">
           Grınd Culture
         </p>
+        <div className="flex gap-6 mt-4">
+          <button
+            onClick={() => onCategoryChange?.('brew-bar' as CategoryId)}
+            className="text-xs font-semibold text-white bg-stone-900 uppercase tracking-widest py-2 px-4 rounded"
+          >
+            İçecekler
+          </button>
+          <button
+            onClick={() => onCategoryChange?.('sandvic' as CategoryId)}
+            className="text-xs font-semibold text-white bg-stone-900 uppercase tracking-widest py-2 px-4 rounded"
+          >
+            Yiyecekler
+          </button>
+        </div>
       </div>
       <div className={cn('sticky top-0 z-50 bg-white border-b border-stone-900')}>
       </div>
